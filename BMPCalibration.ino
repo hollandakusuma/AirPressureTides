@@ -13,7 +13,7 @@ Adafruit_BME280 bme;
 Adafruit_BMP280 bmp;
 
 // Create a string for the filename
-char filename[] = "data.csv";
+char filename[] = "data.txt";
 
 void setup() {
   Serial.begin(9600);
